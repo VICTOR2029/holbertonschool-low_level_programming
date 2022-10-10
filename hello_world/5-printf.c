@@ -1,15 +1,23 @@
-#include <stdlib.h>
-#include <time.h>
+/*
+ * File: 5-print_numbers.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
 /**
- * main - Entry point
+ * 
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-  printf("0123456789\n");
-  return (0);
-}
+  int num;
+
+  for (num = 0; num < 10; num++)
+    printf("%d", num);
+
+  printf("\n");
+
+  return (0)
