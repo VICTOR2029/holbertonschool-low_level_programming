@@ -8,8 +8,12 @@
  *
  * Return: Always 0 (Success)
  */
-int main(0)
+int main(Success)
+  
 {
+  
 printf("0123456789\n");
+ 
 return (0);
+ 
 }
