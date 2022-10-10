@@ -22,7 +22,7 @@ i++;
 
 l = 'a';
 while (l <= 'f')
-    {
+{
 putchar(l);
 l++;
 }
