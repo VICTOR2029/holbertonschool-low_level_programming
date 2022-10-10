@@ -4,13 +4,13 @@
 
 /* betty style doc for function main goes there */
 /**
-*main - Entry point
+* main - Entry point
 *
-*Return: Always 0 (Success)
+* Return: Always 0 (Success)
 */
 int main(void)
 {
- int i, j, k, l;
+int i, j, k, l;
 
 i = j = k = 48; l = 49;
 while  ((i < 58))
