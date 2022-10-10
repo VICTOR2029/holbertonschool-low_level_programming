@@ -1,21 +1,52 @@
-/*
- * File: 101-quote.c
- * Auth: Brennan D Baraban
- */
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
-#include <unistd.h>
-
+/* betty style doc for function main goes there */
 /**
- * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
- *                followed by a new line, to standard error.
+ * main - Entry point
  *
- * Return: Always 1.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-  write(2,
-	"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
-	59);
+int i;
+int j;
+int k;
 
-  return (1);
+i = 48;
+j = 49;
+k = 50;
+while  ((i < 56) && (j < 57) && (k < 58))
+{
+putchar(i);
+putchar(j);
+putchar(k);
+if ((i == 55) && (j == 56) && (k == 57))
+{
+putchar('\n');
+i++;
+j++;
+k++;
+}
+else
+{
+putchar(44);
+putchar(32);
+if (k < 57)
+{
+k++;
+}
+else if ((j < 56) && (k == 57))
+{
+k = 1 + ++j;
+}
+else
+{
+j = 1 + ++i;
+k = 1 + j;
+}
+}
+}
+return (0);
 }
