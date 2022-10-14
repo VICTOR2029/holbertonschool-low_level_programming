@@ -13,6 +13,7 @@ int main(void)
   for (b = 0; b < 9; b++)
     _putchar(a[b]);
   _putchar('\n');
+  _putchar(main.h)
   return (0);
 }
 x
