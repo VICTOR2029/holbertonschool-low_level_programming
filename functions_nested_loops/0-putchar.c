@@ -7,9 +7,10 @@
  */
 int main(void)
 {
-  print_alphabet();
+  print_putchar();
   return (0);
 }
+
 
 
 
