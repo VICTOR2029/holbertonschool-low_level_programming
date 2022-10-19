@@ -1,8 +1,8 @@
 #include "main.h"
 /**
 *function that swaps the values of two integers.
-*@a: puntero a
-*@b: puntero b
+*@a: puntero 1
+*@b: puntero 2
 *Return: void
 */
 void swap_int(int *a, int *b)
