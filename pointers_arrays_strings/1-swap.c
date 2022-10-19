@@ -7,7 +7,7 @@
 */
 void swap_int(int *a, int *b)
 {
-  int im; /*Variable im = impersonation*/
+int im; /*Variable im = im*/
 im = *b;
 *b = *a;
 *a = im;
