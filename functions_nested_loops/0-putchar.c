@@ -1,27 +1,18 @@
-#include "main.h"
+# include  < unistd.h >
 
-/**
- * main - entry point
+/* *
+ * _putchar - escribe el carácter c en stdout
+ * @c: El caracter a imprimir
  *
- * Description: _putchar
- *
- * Return: always 0
+ * Regreso: En caso de éxito 1.
+ * En caso de error, se devuelve -1 y errno se establece correctamente.
  */
-
-int main(void)
+int  _putchar ( char c)
 {
-  int i = 0;
-  char c;
-  char s[] = "main.h";
-
-  while (i <= 9)
-    {
-      c = s[i];
-      _putchar(c);
-      i++;
-    }
-  return (0);
+  volver ( escribir ( 1 , &c, 1 ));
 }
+
+
 
 
 
