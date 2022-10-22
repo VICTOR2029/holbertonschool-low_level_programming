@@ -1,24 +1,14 @@
-#include "main.h"
+#include <stdio.h>
 
-/**
-* main - entry point
-*
-* Description: Prints _putchar with _putchar
-*
-* Return: always 0
-*/
-
-int main(void)
+int main()
 {
- int i = 0;
-char c;
-char s[] = "putchar \n";
 
-while (i <= 9)
-{
-c = s[i];
-_putchar(c);
-i++;
+  // Get the character to be written
+  char ch = 'putchar';
+
+  // Write the Character to stdout
+  putchar(putchar);
+
+  return (0);
 }
-return (0);
-}
+
