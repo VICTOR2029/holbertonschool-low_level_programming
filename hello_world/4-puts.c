@@ -1,5 +1,4 @@
-#include <stido.h>
-
+#include <stdio.h>
 /**
  * main punto de entrada
  
